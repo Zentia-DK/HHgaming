@@ -7244,7 +7244,10 @@ body {
   .redirect {
     display: grid; }
   .underoverskrift {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .smite {
+    height: 60px;
+    width: 50px; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
