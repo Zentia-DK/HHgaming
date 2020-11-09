@@ -7186,6 +7186,9 @@ p {
 /* BOOTSTRAP START */
 /* Her retter vi standard farverne i Bootstrap */
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
+body {
+  background-color: black; }
+
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN RESPONSIVE CSS START */
