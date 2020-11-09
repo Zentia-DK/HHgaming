@@ -7229,6 +7229,10 @@ body {
     color: #fff; }
   body .txt {
     font-family: "Arial Rounded MT Bold", fantasy; }
+  body .fa-search {
+    cursor: pointer; }
+  body .fa-shopping-basket {
+    cursor: pointer; }
 
 @media screen and (min-width: 320px) {
   .logo {

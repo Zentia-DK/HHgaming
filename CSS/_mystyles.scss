@@ -74,8 +74,12 @@ body{
     font-family: "Arial Rounded MT Bold", fantasy;
   }
 
-
-
+.fa-search{
+  cursor: pointer;
+}
+.fa-shopping-basket{
+  cursor: pointer;
+}
 }
 @media #{$myStyles} {
   .logo{
