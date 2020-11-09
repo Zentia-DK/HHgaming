@@ -1,0 +1,25 @@
+:
+
+(
+"primary"
+: #0074d9,
+
+"danger"
+: #ff4136
+
+)
+;
+:
+
+"screen and (min-width: 754px)"
+;
+:
+
+"screen and (min-width:1200px)"
+;
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "tablet";
+@import "computer";
+@import "myStyles";
