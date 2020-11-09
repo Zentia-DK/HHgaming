@@ -7227,6 +7227,8 @@ body {
     right: -158px; }
   body .big-banner .banner-text h2 a {
     color: #fff; }
+  body .txt {
+    font-family: "Arial Rounded MT Bold", fantasy; }
 
 @media screen and (min-width: 320px) {
   .logo {
