@@ -23,6 +23,8 @@ $computer: "screen and (min-width:1200px)";
 
 @media #{$tablet} {
 
-
+.redirect{
+  display: none;
+}
 
 }

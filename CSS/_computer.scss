@@ -22,6 +22,9 @@ $computer: "screen and (min-width:1200px)";
 
 @media #{$computer} {
 
+  .redirect{
+    display: none;
+  }
 
 
 }

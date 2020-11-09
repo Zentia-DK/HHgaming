@@ -4,7 +4,7 @@
 /* Her retter vi standard farverne i Bootstrap */
 $theme-colors: (
         "primary": #808080,
-        "secondary": #0f0,
+        "secondary": #9400D3,
         "danger": #ff4136,
         "success": #050,
         "info": #894,
@@ -38,6 +38,10 @@ p {
   font-size: 30px;
   margin-top: 0px;
   background-color: yellow;
+}
+
+.redirect{
+  display: none;
 }
 /* BOOTSTRAP SLUT */
 /* ------------------------------------------------------------- */
