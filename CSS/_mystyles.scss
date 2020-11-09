@@ -21,9 +21,64 @@ $computer: "screen and (min-width:1200px)";
 
 body{
   background-color: black;
+  .nav-link{
+    font-size: 20px;
+  }
+
+  .hero img {
+    width: 100%;
+  }
+  .big-banner {
+    background-color: #ea2022;
+    width: 100%;
+    float: left;
+  }
+  .big-banner .banner-text {
+    padding: 0;
+  }
+  .big-banner .banner-text h2 {
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 39px;
+    margin-bottom: 41px;
+    display: inline-block;
+    position: relative;
+  }
+  .big-banner .banner-text h2:before {
+    content: "";
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/solodev/cta-with-css/master/image-2.png) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: -158px;
+  }
+  .big-banner .banner-text h2:after {
+    content: "";
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/solodev/cta-with-css/master/image-3.png) no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: -158px;
+  }
+  .big-banner .banner-text h2 a {
+    color: #fff;
+  }
+
+
+
+
 }
 @media #{$myStyles} {
-
+  .logo{
+    height: 50px;
+    width: 100px;
+  }
 
 
 }

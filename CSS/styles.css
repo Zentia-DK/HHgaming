@@ -7188,6 +7188,50 @@ p {
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
 body {
   background-color: black; }
+  body .nav-link {
+    font-size: 20px; }
+  body .hero img {
+    width: 100%; }
+  body .big-banner {
+    background-color: #ea2022;
+    width: 100%;
+    float: left; }
+  body .big-banner .banner-text {
+    padding: 0; }
+  body .big-banner .banner-text h2 {
+    font-size: 25px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 39px;
+    margin-bottom: 41px;
+    display: inline-block;
+    position: relative; }
+  body .big-banner .banner-text h2:before {
+    content: "";
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/solodev/cta-with-css/master/image-2.png) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: -158px; }
+  body .big-banner .banner-text h2:after {
+    content: "";
+    display: block;
+    width: 128px;
+    height: 32px;
+    background: url(https://raw.githubusercontent.com/solodev/cta-with-css/master/image-3.png) no-repeat center center;
+    position: absolute;
+    top: 0;
+    right: -158px; }
+  body .big-banner .banner-text h2 a {
+    color: #fff; }
+
+@media screen and (min-width: 320px) {
+  .logo {
+    height: 50px;
+    width: 100px; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
