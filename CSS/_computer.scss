@@ -18,33 +18,10 @@ $spacer: 100px;
 $myStyles: "screen and (min-width: 320px)";
 $tablet: "screen and (min-width: 768px)";
 $computer: "screen and (min-width:1200px)";
-/* Her importerer vi Bootstrap i vores egen css - Dvs bootstrap css filen skal ikke længere være i vores HTML dokument */
-@import "../node_modules/bootstrap/scss/bootstrap";
 
-/* Her retter vi noget fra bootstrap som ikke kan ændres via variabler */
-ul ol {
-  margin-bottom: 20px;
+
+@media #{$computer} {
+
+
+
 }
-
-/* BOOTSTRAP SLUT */
-/* ------------------------------------------------------------- */
-/* EGEN CSS START */
-
-/* Her henter vi vores eget stylesheet (det der før hed styles.css) - nu har vi kaldt det _myStyles.scss */
-@import "myStyles";
-
-/* EGEN CSS SLUT */
-/* ------------------------------------------------------------- */
-/* EGEN RESPONSIVE CSS START */
-
-/* Her henter vi vores tablet version _tablet.scss */
-@import "tablet";
-
-
-
-
-/* Her henter vi vores computer version _tablet.scss */
-@import "computer";
-
-/* EGEN RESPONSIVE CSS SLUT */
-/* ------------------------------------------------------------- */
