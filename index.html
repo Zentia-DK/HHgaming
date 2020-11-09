@@ -10,16 +10,17 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>HHGaming</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
+    <meta name="Heidi&Helene" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/09a5099bff.js" crossorigin="anonymous"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,14 +29,68 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-<!-- Her skal sidens indhold ligge -->
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <a href="index.html" class="navbar-brand mr-0"><img class="logo " src="images/Logo_Skvulp3.png" alt="logo" style="height: 90px; width: 150px;"></a>
 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse  text-white font-weight-boldt " id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-light">About Us</a>
+                </li>
+                <i class="fas fa-search text-white pl-1 fa-2x"></i>
+                <i class="fas fa-search text-white pl-1 fa-2x"></i>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+<div class="box">
+    <p>Black Friday get 25% on chossen games</p>
+<p id="demo"></p>
+</div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script>
-    $(function () {
+    // Set the date we're counting down to
+    var countDownDate = new Date("Nov 27, 2020 15:37:25").getTime();
 
-    });
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
 </script>
 
 </body>

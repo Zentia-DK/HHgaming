@@ -3,7 +3,7 @@
 
 /* Her retter vi standard farverne i Bootstrap */
 $theme-colors: (
-        "primary": #003844,
+        "primary": #808080,
         "secondary": #0f0,
         "danger": #ff4136,
         "success": #050,
@@ -25,7 +25,19 @@ $computer: "screen and (min-width:1200px)";
 ul ol {
   margin-bottom: 20px;
 }
+.box{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  background-color: yellow;
+}
 
+p {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  background-color: yellow;
+}
 /* BOOTSTRAP SLUT */
 /* ------------------------------------------------------------- */
 /* EGEN CSS START */
