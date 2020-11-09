@@ -1,25 +1,50 @@
-:
+/* ------------------------------------------------------------- */
+/* BOOTSTRAP START */
 
-(
-"primary"
-: #0074d9,
+/* Her retter vi standard farverne i Bootstrap */
+$theme-colors: (
+        "primary": #003844,
+        "secondary": #0f0,
+        "danger": #ff4136,
+        "success": #050,
+        "info": #894,
+        "warning": #822,
+        "light": #ddd,
+        "dark": #333
+);
 
-"danger"
-: #ff4136
+/* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
+$spacer: 100px;
+$myStyles: "screen and (min-width: 320px)";
+$tablet: "screen and (min-width: 768px)";
+$computer: "screen and (min-width:1200px)";
+/* Her importerer vi Bootstrap i vores egen css - Dvs bootstrap css filen skal ikke længere være i vores HTML dokument */
+@import "../node_modules/bootstrap/scss/bootstrap";
 
-)
-;
-:
+/* Her retter vi noget fra bootstrap som ikke kan ændres via variabler */
+ul ol {
+  margin-bottom: 20px;
+}
 
-"screen and (min-width: 754px)"
-;
-:
+/* BOOTSTRAP SLUT */
+/* ------------------------------------------------------------- */
+/* EGEN CSS START */
 
-"screen and (min-width:1200px)"
-;
-
-
-@import "node_modules/bootstrap/scss/bootstrap";
-@import "tablet";
-@import "computer";
+/* Her henter vi vores eget stylesheet (det der før hed styles.css) - nu har vi kaldt det _myStyles.scss */
 @import "myStyles";
+
+/* EGEN CSS SLUT */
+/* ------------------------------------------------------------- */
+/* EGEN RESPONSIVE CSS START */
+
+/* Her henter vi vores tablet version _tablet.scss */
+@import "tablet";
+
+
+
+
+/* Her henter vi vores computer version _tablet.scss */
+@import "computer";
+
+/* EGEN RESPONSIVE CSS SLUT */
+/* ------------------------------------------------------------- */
