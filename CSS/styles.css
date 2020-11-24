@@ -7253,7 +7253,10 @@ body {
   .underoverskrift {
     width: 200px; }
   .billede1 {
-    width: 450px; } }
+    width: 450px; }
+  .some {
+    width: px;
+    height: px; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
