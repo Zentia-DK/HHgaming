@@ -80,6 +80,7 @@ body{
 .fa-shopping-basket{
   cursor: pointer;
 }
+
 }
 @media #{$myStyles} {
   .logo{
@@ -99,5 +100,8 @@ body{
     width: 50px;
   }
 
-
+  .some{
+    width: px;
+    height: px;
+  }
 }
