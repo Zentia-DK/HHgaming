@@ -7255,7 +7255,9 @@ body {
   .mobilepay {
     width: 25px;
     height: 55px;
-    color: white; } }
+    color: white; }
+  #carouselExampleIndicators {
+    display: none; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
@@ -7267,7 +7269,9 @@ body {
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
 @media screen and (min-width: 768px) {
   .redirect {
-    display: none; } }
+    display: none; }
+  #carouselExampleIndicators {
+    display: grid; } }
 
 /* Her henter vi vores computer version _tablet.scss */
 /* ------------------------------------------------------------- */
@@ -7276,7 +7280,9 @@ body {
 /* Her retter vi margin og padding (p-1, p-2, pb-1.... og m-1, m-2, mt-1 osv) */
 @media screen and (min-width: 1200px) {
   .redirect {
-    display: none; } }
+    display: none; }
+  #carouselExampleIndicators {
+    display: grid; } }
 
 /* EGEN RESPONSIVE CSS SLUT */
 /* ------------------------------------------------------------- */
