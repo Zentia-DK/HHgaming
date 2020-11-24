@@ -7247,7 +7247,13 @@ body {
     font-size: 20px; }
   .smite {
     height: 60px;
-    width: 50px; } }
+    width: 50px; }
+  .overskrift {
+    width: 200px; }
+  .underoverskrift {
+    width: 200px; }
+  .billede1 {
+    width: 450px; } }
 
 /* EGEN CSS SLUT */
 /* ------------------------------------------------------------- */
